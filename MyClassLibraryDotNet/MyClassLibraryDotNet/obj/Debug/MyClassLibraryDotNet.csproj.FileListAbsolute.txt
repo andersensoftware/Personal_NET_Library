@@ -1,0 +1,7 @@
+E:\src\C_sharp\Libaries\MyClassLibraryDotNet\MyClassLibraryDotNet\obj\Debug\MyClassLibraryDotNet.csprojResolveAssemblyReference.cache
+E:\src\C_sharp\Libaries\MyClassLibraryDotNet\MyClassLibraryDotNet\obj\Debug\MyClassLibraryDotNet.csproj.CoreCompileInputs.cache
+K:\src\C_sharp\MyClassLibraryDotNet\MyClassLibraryDotNet\obj\Debug\MyClassLibraryDotNet.csproj.CoreCompileInputs.cache
+K:\src\C_sharp\MyClassLibraryDotNet\MyClassLibraryDotNet\bin\Debug\MyClassLibraryDotNet.dll
+K:\src\C_sharp\MyClassLibraryDotNet\MyClassLibraryDotNet\bin\Debug\MyClassLibraryDotNet.pdb
+K:\src\C_sharp\MyClassLibraryDotNet\MyClassLibraryDotNet\obj\Debug\MyClassLibraryDotNet.dll
+K:\src\C_sharp\MyClassLibraryDotNet\MyClassLibraryDotNet\obj\Debug\MyClassLibraryDotNet.pdb
