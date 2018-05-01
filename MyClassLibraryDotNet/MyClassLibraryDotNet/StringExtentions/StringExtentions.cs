@@ -135,20 +135,30 @@ namespace Extensions
         {
             return string.IsNullOrEmpty(_this);
         }
-
-        public static bool EqualsIgnoreCases(this string _this, string other)
+        
+        public static Boolean ContainsIgnoreCase(this String aSource, String aValue)
         {
-            return String.Equals(_this, other, StringComparison.OrdinalIgnoreCase);
+            return aSource != null && aSource.IndexOf(aValue, StringComparison.InvariantCultureIgnoreCase) >= 0;
         }
 
-        public static bool ContainsIgnoreCases(this string _this, string other)
+        public static Boolean EqualsIgnoreCase(this String aSource, String aValue)
         {
-            if (_this.IsNullOrEmpty() || other.IsNullOrEmpty())
-            {
-                return false;
-            }
+            return (String.IsNullOrWhiteSpace(aSource) && String.IsNullOrWhiteSpace(aValue)) || aSource != null && aSource.Equals(aValue, StringComparison.InvariantCultureIgnoreCase);
+        }
 
-            return _this.ToLower().Contains(other.ToLower());
+        public static Boolean StartsWithIgnoreCase(this String aSource, String aValue)
+        {
+            return aSource != null && aSource.StartsWith(aValue, StringComparison.InvariantCultureIgnoreCase);
+        }
+
+        public static Boolean EndsWithIgnoreCase(this String aSource, String aValue)
+        {
+            return aSource != null && aSource.EndsWith(aValue, StringComparison.InvariantCultureIgnoreCase);
+        }
+
+        public static int IndexOfIgnoreCase(this String aSource, String aValue)
+        {
+            return aSource.IndexOf(aValue, StringComparison.InvariantCultureIgnoreCase);
         }
 
         public static string Truncate(this string _this, int maxChars)
