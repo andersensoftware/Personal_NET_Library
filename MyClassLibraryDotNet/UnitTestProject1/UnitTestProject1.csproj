@@ -98,6 +98,7 @@
     <Compile Include="DataStructuresTests\StackTest.cs" />
     <Compile Include="DataStructuresTests\TrieMapTest.cs" />
     <Compile Include="DataStructuresTests\TrieTest.cs" />
+    <Compile Include="DateTimeExtentionTests\DateTimeExtentions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringExtentionsTests\StringExtensionsTest.cs" />
   </ItemGroup>
